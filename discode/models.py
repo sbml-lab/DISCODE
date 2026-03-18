@@ -24,7 +24,7 @@ class TransformerClassifier(nn.Module):
 
 def load(model_path):
     model = TransformerClassifier()
-    model.load_state_dict(torch.load(model_path))
+    model.load_state_dict(torch.load(model_path, map_location="cpu", weights_only=True))
     if torch.cuda.is_available():
         model = model.cuda()
     return model
