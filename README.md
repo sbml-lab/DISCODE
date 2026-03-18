@@ -20,6 +20,8 @@ cd DISCODE
 conda env create -f discode.yaml
 conda activate discode
 ```
+### Running DISCODE on Google Colaboratory workspace
+https://colab.research.google.com/drive/1Gm9QrmYHqLfUqZY0xz6jqfIOZSoqkoiP?usp=sharing<br>
 
 ## Usage
 
